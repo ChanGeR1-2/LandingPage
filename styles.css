@@ -74,7 +74,9 @@ body {
 
 .links li a,
 #subsection-one:first-child p,
-.image-container span {
+.image-container span,
+#subsection-four .text span,
+.footer {
     font-size: 18px;
     color: #E5E7EB
 }
@@ -120,4 +122,63 @@ a {
 
 #subsection-two .image-text-block span {
     text-align: center;
+}
+
+#subsection-three {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+#subsection-three .container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 66vw;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+#subsection-four {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#subsection-four .container {
+    flex: 0 1 70vw;
+    border-radius: 20px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#subsection-four .text h1 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+
+#subsection-four .sign-up-button {
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
 }
